@@ -56,6 +56,9 @@ list(APPEND EXECUTABLE_TARGETS run_image_slam)
 add_executable(run_video_slam src/run_video_slam.cc)
 list(APPEND EXECUTABLE_TARGETS run_video_slam)
 
+add_executable(run_video_slam_headless src/run_video_slam_headless.cc)
+list(APPEND EXECUTABLE_TARGETS run_video_slam_headless)
+
 add_executable(run_euroc_slam src/run_euroc_slam.cc src/util/euroc_util.cc)
 list(APPEND EXECUTABLE_TARGETS run_euroc_slam)
 
